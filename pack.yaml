@@ -1,4 +1,4 @@
-ref: api-action
+ref: api-action1
 name: Hello Stackstorm
 description: Simple pack containing examples of sensor, rule, and action.
 keywords:
