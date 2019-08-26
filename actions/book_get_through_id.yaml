@@ -1,0 +1,13 @@
+---
+name: book_get_by_id
+pack: harsh_pack
+runner_type: "python-script"
+description: action to get book by ID
+enabled: true
+entry_point: book_get_through_id.py
+parameters:
+     id:
+        type: integer
+        description: book ID 
+        required: true
+        position: 1
