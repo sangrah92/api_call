@@ -1,6 +1,6 @@
 ---
 name: book_get_by_id
-pack: harsh_pack
+pack: api_action1
 runner_type: "python-script"
 description: action to get book by ID
 enabled: true
