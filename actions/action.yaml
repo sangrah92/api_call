@@ -1,5 +1,5 @@
 name: demo_api
-pack: api_action
+pack: api_action1
 runner_type: "python-script"
 description: action to get response from a api!
 enabled: true
