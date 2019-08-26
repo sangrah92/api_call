@@ -1,0 +1,39 @@
+---
+name: book_post
+pack: api_action1
+runner_type: "python-script"
+description: action to post Book data 
+enabled: true
+entry_point: book_post.py
+parameters:
+     id:
+        type: integer
+        description: enter book id  
+        required: true
+        position: 0
+     title:
+        type: string
+        description: enter book title 
+        required: true
+        position: 1
+     descp:
+        type: string
+        description: enter book description 
+        required: true
+        position: 2
+     pgcount:
+        type: integer
+        description: enter book pagecount 
+        required: true
+        position: 3
+     excerpt:
+        type: string
+        description: enter book excerpt 
+        required: true
+        position: 4
+     pubdate:
+        type: string
+        description: enter book publish date 
+        required: true
+        position: 5
+
