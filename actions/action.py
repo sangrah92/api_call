@@ -1,3 +1,4 @@
+import sys
 import requests as req
 
 from st2common.runners.base_action import Action
